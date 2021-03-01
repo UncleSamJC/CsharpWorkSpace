@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>General Structure of a C# Program</H1>
+    // A skeleton of a C# program
+using System;
+namespace YourNamespace
+{
+    class YourClass
+    {
+    }
+
+    struct YourStruct
+    {
+    }
+
+    interface IYourInterface
+    {
+    }
+
+    delegate int YourDelegate();
+
+    enum YourEnum
+    {
+    }
+
+    namespace YourNestedNamespace
+    {
+        struct YourStruct
+        {
+        }
+    }
+
+    class YourMainClass
+    {
+        static void Main(string[] args)
+        {
+            //Your program starts here...
+        }
+    }
+}
+<h1>Naming Conventions</h1>
+<ul>
+    <li>Interface names start with a capital I.</li>
+    <li>Attribute types end with the word Attribute.    </li>
+    <li>Enum types use a singular noun for non-flags, and a plural noun for flags</li>
+    <li>Identifiers should not contain two consecutive _ characters. Those names are reserved for compiler generated identifiers.</li>
+</ul>
+</body>
+</html>
